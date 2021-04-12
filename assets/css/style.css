@@ -11,5 +11,12 @@
 }
 
 .card-hotel {
-    
+    padding: 2px 5px 2px 5px;
+    margin-top: 10px;
+    flex: 1 150px;
 }
+
+.btn-reservation {
+    width: 100%;
+}
+
