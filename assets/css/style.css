@@ -1,6 +1,7 @@
 .jumbotron {
     background-color: #007bff;
     margin-top: 50px;
+    color: white;
 }
 
 .card-hotel {
@@ -11,6 +12,14 @@
 
 .btn-reservation {
     width: 100%;
+}
+
+.table-header:nth-child(1) {
+    width: 11%;
+}
+
+.table-header:nth-child(9) {
+    width: 1px;
 }
 
 .footer {
