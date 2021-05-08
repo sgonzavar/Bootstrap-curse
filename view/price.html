@@ -47,17 +47,17 @@
 
         <ul class="nav nav-pills" id="price-tabs" role="tablist">
             <li class="nav-item">
-                <a class="nav-link active" id="price-tab_item" data-toggle="pill" href="#price"
-                role="tab" aria-controls="price" aria-selected="true">price</a>
+                <a class="nav-link active" id="price-tab_item" data-toggle="pill" href="#price" role="tab"
+                    aria-controls="price" aria-selected="true">price</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="card-tab_item" data-toggle="pill" href="#card"
-                role="tab" aria-controls="card" aria-selected="false">card</a>
+                <a class="nav-link" id="card-tab_item" data-toggle="pill" href="#card" role="tab" aria-controls="card"
+                    aria-selected="false">card</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="comment-tab_item" data-toggle="pill" href="#comment"
-                role="tab" aria-controls="comment" aria-selected="false">comment</a>
-            </li>            
+                <a class="nav-link" id="comment-tab_item" data-toggle="pill" href="#comment" role="tab"
+                    aria-controls="comment" aria-selected="false">comment</a>
+            </li>
         </ul>
 
         <div class="tab-content" id="price-content">
@@ -76,7 +76,7 @@
                             <th class="table-header text-white">Costa Rica</th>
                             <th class="table-header text-white">Republica Dominicana</th>
                             <th class="table-header text-white">Punta cana</th>
-                            <th class="table-header text-white">New York</th>            
+                            <th class="table-header text-white">New York</th>
                         </thead>
                         <tbody>
                             <tr>
@@ -168,30 +168,111 @@
             </div>
 
             <div class="tab-pane fade" id="card" role="tabpanel" aria-labelledby="card-tab_item">
-                <section class="d-flex justify-content-center">
-                    <section class="card">
-                        <div class="card-header bg-primary">
-                            <p class="text-white">Tarjetas aceptadas</p> 
+
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn_accordion btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    Tarjeta Basica
+                                    <span class="oi oi-credit-card"></span>
+                                </button>
+                            </h5>
                         </div>
-                        <ul class="list-group list-group-f">
-                            <li class="list-group-item">Tarjeta Basica</li>
-                            <li class="list-group-item">Tarjeta VIP</li>
-                            <li class="list-group-item">Tarjeta Black</li>
-                        </ul>
-                    </section>
-                </section>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                                squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+                                nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn_accordion btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    Tarjeta VIP
+                                    <span class="oi oi-credit-card"></span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                                squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+                                nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn_accordion btn-link collapsed" data-toggle="collapse"
+                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Tarjeta Black
+                                    <span class="oi oi-credit-card"></span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                                squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+                                nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="tab-pane fade" id="comment" role="tabpanel" aria-labelledby="comment-tab_item">
                 <h2>comment</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt voluptates 
-                    debitis nam nisi quia perferendis expedita excepturi sint placeat, officiis possimus 
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt voluptates
+                    debitis nam nisi quia perferendis expedita excepturi sint placeat, officiis possimus
+                    ad, quidem blanditiis perspiciatis voluptas doloribus, molestias nulla.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt voluptates
+                    debitis nam nisi quia perferendis expedita excepturi sint placeat, officiis possimus
+                    ad, quidem blanditiis perspiciatis voluptas doloribus, molestias nulla.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt voluptates
+                    debitis nam nisi quia perferendis expedita excepturi sint placeat, officiis possimus
+                    ad, quidem blanditiis perspiciatis voluptas doloribus, molestias nulla.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt voluptates
+                    debitis nam nisi quia perferendis expedita excepturi sint placeat, officiis possimus
+                    ad, quidem blanditiis perspiciatis voluptas doloribus, molestias nulla.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt voluptates
+                    debitis nam nisi quia perferendis expedita excepturi sint placeat, officiis possimus
+                    ad, quidem blanditiis perspiciatis voluptas doloribus, molestias nulla.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt voluptates
+                    debitis nam nisi quia perferendis expedita excepturi sint placeat, officiis possimus
+                    ad, quidem blanditiis perspiciatis voluptas doloribus, molestias nulla.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt voluptates
+                    debitis nam nisi quia perferendis expedita excepturi sint placeat, officiis possimus
+                    ad, quidem blanditiis perspiciatis voluptas doloribus, molestias nulla.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt voluptates
+                    debitis nam nisi quia perferendis expedita excepturi sint placeat, officiis possimus
                     ad, quidem blanditiis perspiciatis voluptas doloribus, molestias nulla.
                 </p>
-            </div>            
-        </div>        
-        
+            </div>
+        </div>
+
     </section>
     <section class="footer">
         <footer>

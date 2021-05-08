@@ -38,6 +38,19 @@
     padding-bottom: 10px;
 }
 
+.btn_accordion {
+    text-decoration: none;
+    text-align: inherit;
+    font-weight: 700;
+    font-size: 21px;
+    width: 100%;
+}
+
+.btn_accordion:hover, .btn_accordion:active {
+    text-decoration: none;
+    color: black;
+}
+
 .footer {
     padding: 25px 20px 0 20px;
     background-color: #9fcaf8;
